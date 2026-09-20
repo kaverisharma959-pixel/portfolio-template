@@ -807,3 +807,40 @@ footer{
         height: auto;
     }
 }
+
+/* API DEMO */
+
+.api-demo {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(253, 129, 187, 0.15);
+    border-radius: 15px;
+}
+
+.api-demo h2 {
+    margin-bottom: 20px;
+}
+
+#userData {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#refreshUser {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(253, 129, 187, 0.8);
+    color: black;
+    font-size: 1rem;
+}
+
+#refreshUser:hover {
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}
