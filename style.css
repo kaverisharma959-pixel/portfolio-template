@@ -753,3 +753,57 @@ footer{
         }
     }
 }
+/* PORTFOLIO IMPROVEMENTS */
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(127, 110, 187, 0.3);
+}
+
+.button,
+.button-outline {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.button:hover,
+.button-outline:hover {
+    transform: translateY(-2px);
+}
+
+.wrapper {
+    padding: 30px 20px;
+}
+/* MOBILE RESPONSIVENESS IMPROVEMENT */
+
+@media screen and (max-width: 600px) {
+    .large {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .medium-spacing {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
